@@ -46,9 +46,9 @@ If `lumapi` is not importable, set `LUMAPI_PATH` to Lumerical's `api/python` fol
 
 Generated into `images/` by `analysis/modulator_analysis.py` from the CHARGE/MODE sweeps:
 
-![Effective index change](images/01_neff_vs_bias.png)
-![Loss](images/02_loss_vs_bias.png)
-![MZI transmission](images/03_transmission_vs_bias.png)
+![Effective index change](reference_model/images/01_neff_vs_bias.png)
+![Loss](reference_model/images/02_loss_vs_bias.png)
+![MZI transmission](reference_model/images/03_transmission_vs_bias.png)
 
 Key numbers (V_π, V_π·L, extinction ratio, insertion loss, and the V_π shift caused by Joule heating) are written to `data/metrics.json`.
 
